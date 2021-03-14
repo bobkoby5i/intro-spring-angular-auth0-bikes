@@ -3,19 +3,24 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './components/admin/admin.component';
 import { HomeComponent } from './components/home/home.component';
 import { ViewRegistrationComponent } from './components/view-registration/view-registration.component';
+import { CallbackComponent } from './components/callback/callback.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent 
+    component: HomeComponent
   },
   {
     path: 'admin/view/:id',
-    component: ViewRegistrationComponent 
+    component: ViewRegistrationComponent
   },
   {
     path: 'admin',
-    component: AdminComponent 
+    component: AdminComponent
+  },
+  {
+    path: 'callback',
+    component: CallbackComponent
   }
 ];
 
