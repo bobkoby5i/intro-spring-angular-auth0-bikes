@@ -39,4 +39,10 @@ public class BikesController {
         //return new Bike();
         return bikeRepository.getOne(id);
     }
+
+    @GetMapping("/pub/{id}")
+    public Bike publicGet(@PathVariable("id") long id){
+        //return new Bike();
+        return bikeRepository.getOne(id);
+    }
 }
