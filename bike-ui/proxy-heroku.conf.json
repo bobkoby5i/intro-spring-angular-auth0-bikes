@@ -1,0 +1,11 @@
+{
+	"/server": {
+		"target": "https://koby5i-intro-bike-auth0-spring.herokuapp.com",
+		"secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/server" : ""
+    }
+	}
+}
